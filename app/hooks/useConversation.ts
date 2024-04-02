@@ -1,5 +1,6 @@
+"use client";
 import { useParams } from "next/navigation";
-import React, { useMemo } from "react";
+import { useMemo } from "react";
 
 const useConversation = () => {
   const params = useParams();
