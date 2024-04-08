@@ -1,3 +1,5 @@
+"use client";
+
 import useConversation from "@/app/hooks/useConversation";
 import axios from "axios";
 import { useRouter } from "next/navigation";
